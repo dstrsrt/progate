@@ -45,18 +45,18 @@
 }
 
 .cat-img img:hover{
-    position:relative;
-    top: 8px;
-    left:8px;
-    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 8px 8px 4px rgba(196,188,177,0.2);
+    transition: all 0.2s ease-in-out;
 }
 
 .cat-img img{
+    position: relative;
     height:250px;
     width:250px;
     object-fit: cover;
     border-radius: 32px;
-    box-shadow: 8px 8px #c4bcb1;
+    transition: all 0.2s ease-in-out;
 }
 
 a{
