@@ -1,0 +1,78 @@
+/*CSS untuk Body-1*/
+* {
+    box-sizing: border-box;
+  }
+
+.body-1{
+    background-color:#fef5e6;
+    color:black;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.heading {
+    padding-top: 20px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width:1170px;
+}
+
+.container h2{
+    font-family: Merriweather;
+}
+
+.container h3{
+    font-family: 'Open Sans';
+}
+
+.cat-contents{
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cat-content{
+    float:left;
+    padding: 10px 17px;
+    width:33%;
+}
+
+.cat-img{
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.cat-img img:hover{
+    position:relative;
+    top: 8px;
+    left:8px;
+    box-shadow: none;
+}
+
+.cat-img img{
+    height:250px;
+    width:250px;
+    object-fit: cover;
+    border-radius: 32px;
+    box-shadow: 8px 8px #c4bcb1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    clear: left;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    border-radius:16px;
+}
+
+.orange{
+    background-color: #f09c16;
+    padding: 5px 20px;
+    color:white;
+}
